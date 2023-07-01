@@ -2,7 +2,7 @@ use std::io::{stdin, stdout, Write};
 use termion::input::MouseTerminal;
 use termion::raw::IntoRawMode;
 
-use crossterm::event::{read, DisableFocusChange, EnableFocusChange, Event, KeyCode, KeyEvent};
+use crossterm::event::{read, DisableFocusChange, EnableFocusChange};
 use crossterm::execute;
 
 fn print_events() -> crossterm::Result<()> {
